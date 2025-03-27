@@ -1017,7 +1017,7 @@ section,
 }
 
 .about .fst-italic {
-  color: color-mix(in srgb, var(--default-color), var(--contrast-color) 50%);
+  color: color-mix(in srgb, var(--default-color), var(--contrast-color) 25%);
 }
 
 .about .content ul {
@@ -1580,7 +1580,7 @@ section,
 .team .member h4 {
   font-weight: 700;
   margin-bottom: 10px;
-  font-size: 16px;
+  font-size: 18px;
   position: relative;
   padding-bottom: 10px;
 }
@@ -1597,9 +1597,11 @@ section,
 }
 
 .team .member span {
-  font-style: italic;
+  /* font-style: italic; */
   display: block;
-  font-size: 13px;
+  font-size: 14px;
+  font-family: var(--heading-font);
+  font-weight: 500;
 }
 
 .team .member .social {
